@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', serif;
+}
+
+h1 {
+  margin: 0.7rem auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+}
+
+@media (max-width: 900px){
+  h1 {
+    margin: 0.4rem auto;
+    font-size: 2.3rem;
+  }
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.1rem;
+  margin: 1rem auto;
+}
+
+h3 {
+  font-family: 'Cinzel', sans-serif;
+  font-size: 1.5rem;
+  margin-top: auto;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+p {
+  color: #3A3B3C;
+}
+
+.header {
+  background-color: #C6DCE4;
+  position: relative;
+  padding: 6.25rem 0;
+  text-align: left;
+}
+
+.middle-section {
+  background-color: #DAEAF1;
+  padding: 1.5rem 0;
+}
+
+.footer {
+  background-color: #C6DCE4;
+  position: relative;
+  padding: 3rem 0 1.25rem;
+}
+
+.robot-img{
+  border-radius: 50%;
+  border: 2px solid #DAEAF1;
+  width: 11rem;
+  float: left;
+  margin: auto 0.8rem auto 0.8rem;
+}
+
+.fse-img {
+  width: 125px;
+  height: 125px;
+  margin: 8px auto 8px;
+}
+
+.cpp-img {
+  width: 125px;
+  height: 125px;
+  margin: 8px auto 8px;
+}
+
+.assembler-img {
+  width: 125px;
+  height: 125px;
+  margin: 8px auto;
+}
+
+.about-me {
+  margin: 2rem auto;
+  width: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 1.4rem auto;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.carousel-inner {
+  width: 70%;
+  margin: 0.8rem auto 0.8rem;
+}
+
+.top-hr {
+  border-top: 1.9;
+  border-bottom: none;
+}
+
+.mid-hr {
+  border-top: 1.9;
+  border-bottom: none;
+  margin: auto 12.5rem auto 12.5rem;
+}
+
+.dot-hr {
+  border: dotted #A9A9A9 0.3rem;
+  border-bottom: none;
+  width: 10%;
+  margin: 3rem auto 3rem;
+}
+
+.skill-hr {
+  border-top: 1.5;
+  border-bottom: none;
+  margin: 1.6rem auto 0;
+}
+
+.bottom-hr {
+  border-top: 1.9;
+  border-bottom: none;
+  margin: auto 8rem;
+}
+
+.contact-me {
+  margin: 1.4rem auto;
+}
+
+.contact-p {
+  width: 40%;
+  margin: 1rem auto 1rem;
+}
+
+.btn-social {
+  margin-bottom: 1rem;
+}
+
+.copyright {
+    color: gray;
+    font-size: 0.8rem;
+}
